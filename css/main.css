@@ -89,3 +89,7 @@ form button {
 .skip-links a:focus {
   top: 0;
 }
+
+.site-footer a {
+  margin: 1em;
+}
