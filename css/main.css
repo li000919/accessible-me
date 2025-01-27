@@ -3,6 +3,7 @@ body {
   background-color: #fafafa;
   margin: 0;
   padding: 0;
+  line-height: 1.5;
 }
 
 h1,
@@ -28,7 +29,7 @@ img {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin: 1em;
   padding: 0;
 }
 
@@ -42,6 +43,7 @@ img {
   color: inherit;
   text-decoration: none;
   font-size: 1.25rem;
+  padding: .5em;
 }
 
 form input,
@@ -92,4 +94,19 @@ form button {
 
 .site-footer a {
   margin: 1em;
+}
+
+.main-nav ul li a:hover, .submitbutton:hover {
+  font-weight: bold;
+  background-color: lightblue;
+}
+
+.main-nav ul li a:active, .submitbutton:active {
+  font-weight: bold;
+  background-color: lightgoldenrodyellow;
+}
+
+.main-nav ul li a:focus, .submitbutton:focus {
+  font-weight: bold;
+  background-color: lightgoldenrodyellow;
 }
